@@ -28,6 +28,18 @@ width: min(var(--max-widht), 100% - var(--px-lg) * 2);
   gap: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
 @media (widht >= 80em) {
   .container {
     --max-widht: 80rem;
