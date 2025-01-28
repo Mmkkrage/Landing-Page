@@ -24,7 +24,7 @@
   display: none;
 }
 
-.even-colums {
+.even-columns {
   display: grid;
   gap: 1rem;
 }
